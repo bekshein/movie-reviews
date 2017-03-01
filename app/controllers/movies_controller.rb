@@ -9,6 +9,7 @@ class MoviesController < ApplicationController
 
   # show movie
   def show
+    @reviews = Review.where(movie_id: @movie.id).order("created_at DESC")
   end
 
   # show new movie form
