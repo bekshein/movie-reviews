@@ -35,6 +35,11 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use for search feature
 gem 'searchkick', '~> 2.1', '>= 2.1.1'
 
+gem 'rails_12factor', '~> 0.0.3'
+
+# Use to store images to aws
+gem 'aws-sdk', '~> 2.7', '>= 2.7.7'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
