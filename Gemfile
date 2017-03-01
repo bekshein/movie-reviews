@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use for authentication
 gem 'devise', '~> 4.2'
 
+# Use Paperclip for easy upload management for ActiveRecord
+gem 'paperclip', '~> 5.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
