@@ -32,6 +32,9 @@ gem 'paperclip', '~> 5.1'
 # Use for bootstrap styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+# Use for search feature
+gem 'searchkick', '~> 2.1', '>= 2.1.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
